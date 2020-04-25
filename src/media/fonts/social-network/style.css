@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'project-fonts';
+  src:  url('fonts/project-fonts.eot?i2s9lu');
+  src:  url('fonts/project-fonts.eot?i2s9lu#iefix') format('embedded-opentype'),
+    url('fonts/project-fonts.ttf?i2s9lu') format('truetype'),
+    url('fonts/project-fonts.woff?i2s9lu') format('woff'),
+    url('fonts/project-fonts.svg?i2s9lu#project-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'project-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e905";
+}
+.icon-tumblr:before {
+  content: "\e908";
+}
+.icon-twitter:before {
+  content: "\e909";
+}
+.icon-linkedin:before {
+  content: "\eaca";
+}
