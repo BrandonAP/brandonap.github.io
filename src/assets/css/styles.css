@@ -50,9 +50,11 @@ a{
 .navigation-bar .wordmark-svg{
     width: 170px;
     height: 30px;
-    display: flex;
-    align-items: center;
-    fill: var(--light-color);
+    background-image: url(../../media/images/wordmark/brandon-white-logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
     transition: 0.4s ease;
 }
 .navigation-bar .wordmark-svg:hover{
